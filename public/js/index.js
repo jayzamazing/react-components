@@ -15,7 +15,18 @@ var Person = function() {
         </div>
     );
 };
+var PersonList = function() {
+    return (
+        <div className="person-list">
+            <Person />
+            <Person />
+            <Person />
+            <Person />
+            <Person />
+        </div>
+    );
+};
 
 document.addEventListener('DOMContentLoaded', function() {
-    ReactDOM.render(<Person />, document.getElementById('app'));
+    ReactDOM.render(<PersonList />, document.getElementById('app'));
 });
