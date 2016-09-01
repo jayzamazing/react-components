@@ -1,8 +1,8 @@
 {
   "name": "react_components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple app to learn react components",
-  "main": "index.js",
+  "main": "public/js/index.js",
   "scripts": {
     "mkdir": "mkdir -p build",
     "build": "npm run clean && npm run mkdir && npm run build:html && npm run build:css && npm run build:js",
